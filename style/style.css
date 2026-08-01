@@ -1,5 +1,43 @@
 body {
-  background-color: aqua;
+  background-image: url(/bg-screen.png);
+}
+body .counteiner {
+  max-width: 1400px;
+  margin: 0px auto;
+}
+body .counteiner header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .counteiner header ul {
+  list-style: none;
+  gap: 10px;
+  display: flex;
+}
+body .counteiner header span {
+  color: #02C173;
+}
+body section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+body section img {
+  width: 450px;
+  padding-top: 40px;
+}
+body section h1 {
+  width: 200px;
+  font-size: 70px;
+}
+body section h1 span {
+  color: #02C173;
+}
+body section p {
+  width: 500px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
